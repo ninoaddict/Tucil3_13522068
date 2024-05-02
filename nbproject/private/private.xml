@@ -2,17 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/GuiTest.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/UCS.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/Node.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/ResultInterface.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/WordLadder.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/AStar.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/UserInterface.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/DictionaryReader.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/BFS.java</file>
-            <file>file:/C:/Users/adril/ITB%20Files/Semester%20IV/Algorithm%20Strategy/Tugas/word_ladder/src/word_ladder/NodeComparator.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

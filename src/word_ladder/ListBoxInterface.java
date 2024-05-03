@@ -1,10 +1,5 @@
 package word_ladder;
 
-/**
- *
- * @author adril
- */
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -15,7 +10,7 @@ public class ListBoxInterface extends JPanel {
 
   private void initComponents(String base, String target) {
     this.setLayout(new GridBagLayout());
-    this.setBackground(new Color(0, 51, 51));
+    this.setBackground(new Color(20, 20, 20));
     GridBagConstraints c = new GridBagConstraints();
     c.gridy = 0;
     c.insets = new Insets(0, 3, 0, 3);

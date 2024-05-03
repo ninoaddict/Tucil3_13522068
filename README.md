@@ -1,4 +1,4 @@
-<h1 align="center">Bezier Curve Simulator</h1>
+<h1 align="center">Word Ladder Solver</h1>
 <h2 id="description">✨ Description </h2>
 
 

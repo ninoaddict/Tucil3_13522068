@@ -49,7 +49,7 @@ public class ResultInterface extends javax.swing.JFrame {
     numOfVisitedLabel.setFont(new java.awt.Font("Linux Libertine", 1, 14));
     numOfVisitedLabel.setBackground(new java.awt.Color(20, 20, 20));
     numOfVisitedLabel.setForeground(new java.awt.Color(204, 204, 204));
-    numOfVisitedLabel.setText("by visiting " + numOfVisited + " node");
+    numOfVisitedLabel.setText("by visiting " + numOfVisited + " nodes");
     numOfVisitedLabel.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
     basePanel.add(numOfVisitedLabel, c);
 

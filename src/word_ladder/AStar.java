@@ -24,6 +24,7 @@ public class AStar extends Search {
   public List<String> solveWordLadder(String base, String target) {
     HashSet<String> dictionary = Node.dictionary;
     PriorityQueue<Node> pq = new PriorityQueue<>(new NodeComparator());
+    HashSet<String> visited = new HashSet<>();
     pq.add(new Node(base, calculateScore(base, target), null, 0));
 
     while (!pq.isEmpty()) {
@@ -31,8 +32,6 @@ public class AStar extends Search {
       String currWord = currNode.getWord();
 
       numOfVisited++;
-
-      // System.out.println(currWord + " " + currNode.getCost());
 
       if (currWord.equals(target)) {
         return currNode.getPaths();
@@ -43,10 +42,10 @@ public class AStar extends Search {
           StringBuilder temp = new StringBuilder(currWord);
           temp.setCharAt(i, (char) ('a' + j));
           String check = new String(temp);
-
-          if (dictionary.contains(check) && !currNode.visited(check)) {
+          if (dictionary.contains(check) && !visited.contains(check)) {
             pq.add(new Node(check, calculateScore(check, target) + currNode.getLevel() + 1, currNode,
                 currNode.getLevel() + 1));
+            visited.add(check);
           }
         }
       }

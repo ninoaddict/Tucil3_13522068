@@ -6,8 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class BFS extends Search {
-  public BFS() {
+public class GBFS extends Search {
+  public GBFS() {
     numOfVisited = 0;
   }
 

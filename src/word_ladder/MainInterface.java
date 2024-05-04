@@ -136,7 +136,7 @@ public class MainInterface extends JFrame {
           ri.setVisible(true);
           break;
         case 1:
-          BFS bfs = new BFS();
+          GBFS bfs = new GBFS();
           res = bfs.solveWordLadder(startText, endText);
           timeend = System.nanoTime();
 

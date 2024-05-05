@@ -32,7 +32,18 @@ cd Tucil3_13522068
 ```
 
 <h2 id="usage">🐈‍⬛ Usage</h2>
-Placeholder
+
+1. Click on the top most empty box and input the start word. Click on the other empty box and input the end word.
+
+![Satu](https://github.com/ninoaddict/Tucil3_13522068/blob/main/img/1.png)
+
+2. Select the search algorithm
+
+![Dua](https://github.com/ninoaddict/Tucil3_13522068/blob/main/img/2.png)
+   
+3. Click the search button and see the result
+
+![Tiga](https://github.com/ninoaddict/Tucil3_13522068/blob/main/img/3.png)
 
 <h2 id="author">🤵 Author</h2>
 <pre>

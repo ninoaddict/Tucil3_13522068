@@ -42,7 +42,7 @@ public class MainInterface extends JFrame {
     midLabel = new JLabel();
     midLabel.setFont(new Font("Linux Libertine", 1, 14));
     midLabel.setForeground(new Color(204, 204, 204));
-    midLabel.setText("TO");
+    midLabel.setText("to");
     midLabel.setBorder(BorderFactory.createEmptyBorder(10, 0, 10, 0));
     basePanel.add(midLabel, basePanelGbc);
     basePanelGbc.gridy = 3;
@@ -59,7 +59,7 @@ public class MainInterface extends JFrame {
     algoSelect.setFont(new Font("Linux Libertine", 1, 14));
     algoSelect.setForeground(new Color(204, 204, 204));
     algoSelect.setModel(new DefaultComboBoxModel<>(
-        new String[] { "Uniform Cost Search", "Best First Search", "A* Algorithm" }));
+        new String[] { "Uniform Cost Search", "Greedy Best First Search", "A* Algorithm" }));
     algoSelect.setBorder(BorderFactory.createEmptyBorder(0, 0, 10, 0));
     basePanel.add(algoSelect, basePanelGbc);
     basePanelGbc.gridy = 5;

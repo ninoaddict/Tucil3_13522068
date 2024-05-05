@@ -16,13 +16,18 @@ public class UCS extends Search {
     HashSet<String> vis = new HashSet<>();
 
     pq.add(new Node(base, 0, null, 0));
-    vis.add(base);
 
     while (!pq.isEmpty()) {
       Node currNode = pq.poll();
       String currWord = currNode.getWord();
 
       numOfVisited++;
+
+      if (vis.contains(currWord)) {
+        continue;
+      }
+
+      vis.add(currWord);
 
       if (currWord.equals(target)) {
         return currNode.getPaths();
@@ -36,7 +41,6 @@ public class UCS extends Search {
 
           if (dictionary.contains(check) && !vis.contains(check)) {
             pq.add(new Node(check, currNode.getCost() + 1, currNode, currNode.getLevel() + 1));
-            vis.add(check);
           }
         }
       }

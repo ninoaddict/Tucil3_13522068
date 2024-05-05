@@ -15,6 +15,7 @@ public class ResultInterface extends javax.swing.JFrame {
 
     scrollPanel = new JScrollPane();
     scrollPanel.setSize(new Dimension(60 * res.get(0).length() + 80, Math.min(1000, 60 * res.size() + 150)));
+    scrollPanel.getVerticalScrollBar().setUnitIncrement(16);
     this.add(scrollPanel);
     this.setSize(scrollPanel.getSize());
 

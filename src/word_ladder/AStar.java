@@ -33,6 +33,12 @@ public class AStar extends Search {
 
       numOfVisited++;
 
+      if (visited.contains(currWord)) {
+        continue;
+      }
+
+      visited.add(currWord);
+
       if (currWord.equals(target)) {
         return currNode.getPaths();
       }
@@ -45,7 +51,6 @@ public class AStar extends Search {
           if (dictionary.contains(check) && !visited.contains(check)) {
             pq.add(new Node(check, calculateScore(check, target) + currNode.getLevel() + 1, currNode,
                 currNode.getLevel() + 1));
-            visited.add(check);
           }
         }
       }
